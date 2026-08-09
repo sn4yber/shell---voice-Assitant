@@ -14,8 +14,13 @@ Pasos iniciales:
 3. Conectar dispositivo y habilitar USB debugging.
 4. Ejecutar la app o usar "Run" desde Android Studio.
 
+Configuración ya incluida:
+- Gradle Wrapper y versiones compatibles.
+- Base Compose con dashboard inicial.
+- Permisos base para micrófono, contactos y llamadas.
+- Estructura inicial para voz y permisos.
+
 Siguientes pasos sugeridos:
 - Implementar sistema de Skills y ShellViewModel
 - Añadir permisos progresivos (micrófono, llamadas, notificaciones)
 - Integrar Speech-to-Text y Text-to-Speech
-

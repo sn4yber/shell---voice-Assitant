@@ -1,11 +1,5 @@
 plugins {
-    // Keep versions managed by Android Studio / Gradle
-}
-
-// Repositories for all projects
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
+    id("com.android.application") version "9.3.1" apply false
+    id("com.android.library") version "9.3.1" apply false
+    id("org.jetbrains.kotlin.plugin.compose") version "2.2.21" apply false
 }
