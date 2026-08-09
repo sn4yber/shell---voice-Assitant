@@ -1,0 +1,34 @@
+/build/
+/.gradle/
+/local.properties
+/.idea/
+/*.iml
+/.gradle/
+/.idea/
+/.DS_Store
+/.externalNativeBuild
+/captures/
+/*.keystore
+.gradle/
+**/build/
+
+# Kotlin
+*.class
+*.jar
+*.war
+*.ear
+*.class
+
+# Android Studio specific
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+/build/
+
+# Logs
+*.log
+
+# Others
+local.properties
